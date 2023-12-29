@@ -23,7 +23,7 @@ import { ConditionCodes } from 'chia-condition-codes';
 Use the enum in your code like so:
 
 ```javascript
-const solution = Program.fromSource(`(${ConditionCodes.CREATE_COIN} 300000 (${hint} ${...memos}))`);
+const solution = Program.fromSource(`(${ConditionCodes.CREATE_COIN} 300000 (${hint} ${memos.join(" ")}))`);
 ```
 
 ## Conditions Enum
