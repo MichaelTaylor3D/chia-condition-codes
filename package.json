@@ -1,6 +1,6 @@
 {
   "name": "chia-condition-codes",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Named condition codes for chia-lisp",
   "main": "index.js",
   "types": "index.d.ts",

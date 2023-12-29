@@ -1,7 +1,7 @@
 /**
  * Enumeration for Chia blockchain conditions with their associated codes and descriptions.
  */
-const Condition = {
+module.exports = {
   /**
    * REMARK
    * This condition is always considered valid by the mempool.
@@ -411,4 +411,3 @@ const Condition = {
   SOFTFORK: 90,
 };
 
-module.exports = Condition;
