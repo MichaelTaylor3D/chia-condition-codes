@@ -1,0 +1,22 @@
+{
+  "name": "chia-condition-codes",
+  "version": "1.0.0",
+  "description": "Named condition codes for chia-lisp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MichaelTaylor3D/chia-condition-codes.git"
+  },
+  "keywords": [
+    "chia-blockchain"
+  ],
+  "author": "Michael Taylor",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MichaelTaylor3D/chia-condition-codes/issues"
+  },
+  "homepage": "https://github.com/MichaelTaylor3D/chia-condition-codes#readme"
+}
