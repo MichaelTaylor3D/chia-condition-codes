@@ -5,7 +5,7 @@
 Install the package from npm:
 
 ```bash
-npm install your-package-name
+npm install chia-condition-codes
 ```
 
 ## Usage
