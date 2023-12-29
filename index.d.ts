@@ -1,5 +1,5 @@
 declare module "chia-condition-codes" {
-  export enum ConditionsCodes {
+  export enum ConditionCodes {
     /**
      * REMARK
      * This condition is always considered valid by the mempool.
