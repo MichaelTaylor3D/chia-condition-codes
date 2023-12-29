@@ -411,4 +411,4 @@ const ConditionCodes = {
   SOFTFORK: 90,
 };
 
-module.exports = ConditionCodes;
+module.exports = { ConditionCodes };
