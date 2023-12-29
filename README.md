@@ -13,13 +13,17 @@ npm install chia-condition-codes
 After installation, you can import the enum into your project:
 
 ```javascript
-const Conditions = require('chia-condition-codes');
+const { ConditionCodes } = require('chia-condition-codes');
+
+OR
+
+import { ConditionCodes } from 'chia-condition-codes';
 ```
 
 Use the enum in your code like so:
 
 ```javascript
-const solution = Program.fromSource(`(${Conditions.CREATE_COIN} 300000 (${hint} ${...memos}))`);
+const solution = Program.fromSource(`(${ConditionCodes.CREATE_COIN} 300000 (${hint} ${...memos}))`);
 ```
 
 ## Conditions Enum
